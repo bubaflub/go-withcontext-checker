@@ -23,9 +23,9 @@ net/http request.WithContext() called without lvalue at /Users/bob/gohome/src/gi
 
 ## Todo
 
-* [ ] Have tests that run as part of `go test`
+* [x] Have tests that run as part of `go test`
 * [ ] Print the full line where the call is made
 * [ ] Provide a fixit hint like clang-tidy does
-* [ ] Accept a list of functions that we should flag like GCC's `warn_unused_result`
-* [ ] Can we find all "pure" functions in stdlib to generate that list?
+* [ ] Accept a list of functions that we should flag to get GCC's `warn_unused_result` functionality
+* [ ] Can we find all "pure" functions in stdlib to generate the list above?
 * [ ] Open and issue to propose patch to extend `go vet`

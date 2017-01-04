@@ -27,6 +27,14 @@
 			"branch": "master",
 			"path": "/go/loader",
 			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/check.v1",
+			"repository": "https://gopkg.in/check.v1",
+			"vcs": "git",
+			"revision": "20d25e2804050c1cd24a7eea1e7a6447dd0e74ec",
+			"branch": "v1",
+			"notests": true
 		}
 	]
 }

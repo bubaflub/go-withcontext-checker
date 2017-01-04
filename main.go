@@ -74,8 +74,7 @@ func CheckRequestWithContext(fset *token.FileSet, info *types.Info, files []*ast
 						}
 						if !inAssignment {
 							// XXX: can we print out the entire line of the file?
-							obj := info.ObjectOf(selector)
-							warnings = append(warnings, RequestWithContextWarning{Pos: fset.Position(n.Pos()), Name: obj.Name()})
+							warnings = append(warnings, RequestWithContextWarning{Pos: fset.Position(n.Pos()), Name: ""})
 						}
 					}
 				}
